@@ -3,6 +3,6 @@ applications:
 - path: .
   name: halle-028-sentiment-analyzer #change to be unique in IBM Cloud
   buildpack: sdk-for-nodejs
-  memory: 64M
+  memory: 256M
   instances: 1
   random-route: true
